@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-HeavyItalic.woff2') format('woff2'),
+        url('DrukTextWide-HeavyItalic.woff') format('woff'),
+        url('DrukTextWide-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Super';
+    src: url('DrukTextWide-Super.woff2') format('woff2'),
+        url('DrukTextWide-Super.woff') format('woff'),
+        url('DrukTextWide-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Super';
+    src: url('DrukTextWide-SuperItalic.woff2') format('woff2'),
+        url('DrukTextWide-SuperItalic.woff') format('woff'),
+        url('DrukTextWide-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-Heavy.woff2') format('woff2'),
+        url('DrukTextWide-Heavy.woff') format('woff'),
+        url('DrukTextWide-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-Bold.woff2') format('woff2'),
+        url('DrukTextWide-Bold.woff') format('woff'),
+        url('DrukTextWide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-MediumItalic.woff2') format('woff2'),
+        url('DrukTextWide-MediumItalic.woff') format('woff'),
+        url('DrukTextWide-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-BoldItalic.woff2') format('woff2'),
+        url('DrukTextWide-BoldItalic.woff') format('woff'),
+        url('DrukTextWide-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide';
+    src: url('DrukTextWide-Medium.woff2') format('woff2'),
+        url('DrukTextWide-Medium.woff') format('woff'),
+        url('DrukTextWide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
