@@ -73,10 +73,10 @@ height: 50px; }
  .list ul li::after {
     content: " — ";
     vertical-align: super;
-    color: #faebd8;
+    color: rgb(23, 23, 23);
     display: inline-block;
     line-height: 0;
-    border-bottom: 1px solid rgb(23, 23, 23);
+    border-bottom: 1px solid #faebd8;
      letter-spacing: 0.2vw;
 }
 
