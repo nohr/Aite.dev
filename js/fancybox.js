@@ -42,7 +42,7 @@ $("#nxgn").on('click', function() {
       src  : 'port/nxgn/nxgn-tat.jpg',
       opts : {
         caption : '2016',
-        thumb   : 'ort/nxgn/nxgn-tat.jpg'
+        thumb   : 'port/nxgn/nxgn-tat.jpg'
       }
     },
     {
@@ -65,7 +65,7 @@ $("#nxgn").on('click', function() {
     {
       src  : 'port/nohri/realmsofficial.jpg',
       opts : {
-        caption : 'Front - Photographed by Jheyda Mc Garrell, Illustration by Legtorn',
+        caption : 'Front - Photography by Jheyda McGarrell, Illustration by Legtorn',
         thumb   : 'port/nohri/realmsofficial.jpg'
       }
     },
@@ -94,7 +94,7 @@ $("#nxgn").on('click', function() {
     {
       src  : 'port/nohri/realms5.jpg',
       opts : {
-        caption : 'Photographed by Jheyda Mc Garrell, Illustration by Legtorn',
+        caption : 'Photography by Jheyda McGarrell, Illustration by Legtorn',
         thumb   : 'port/nohri/realms5.jpg'
       }
     }], {
