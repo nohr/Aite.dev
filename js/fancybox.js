@@ -32,17 +32,24 @@
 $("#nxgn").on('click', function() {
           $.fancybox.open([
     {
-      src  : 'port/nxgn/nxgn-logo.png',
-      opts : {
-        caption : '2015',
-        thumb   : 'port/nxgn/nxgn-logo.png'
-      }
-    },
-    {
       src  : 'port/nxgn/nxgn-logo2.png',
       opts : {
         caption : '2016',
         thumb   : 'port/nxgn/nxgn-logo2.png'
+      }
+    },
+    {
+      src  : 'port/nxgn/nxgn-tat.jpg',
+      opts : {
+        caption : '2016',
+        thumb   : 'ort/nxgn/nxgn-tat.jpg'
+      }
+    },
+    {
+      src  : 'port/nxgn/nxgn-logo.png',
+      opts : {
+        caption : '2015',
+        thumb   : 'port/nxgn/nxgn-logo.png'
       }
     }
   ], {
