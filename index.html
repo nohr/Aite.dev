@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nohri.net</title>
-    <meta name="description" content="brooklyn based multimedia artist and music producer.">
+    <meta name="description" content="portfolio of brooklyn based multimedia artist and music producer, Nohri.">
     <link rel="stylesheet" href="css/index.css">
     <link type="text/css" href="css/fonts/stylesheet.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -34,10 +34,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a href="#" id="nav0" class="nav-link mobile" data-toggle="modal" data-target="#informationModal" style="cursor: help;">Information</a>
-      </li>
-      <li class="nav-item">
-        <a id="nav1" class="nav-link mobile" href="https://nohri.bandcamp.com/" target="_blank" style="cursor:zoom-in;">Music</a>
+        <a href="#" id="nav0" class="nav-link mobile" data-toggle="modal" data-target="#informationModal" style="cursor: help;">about</a>
       </li>
       <li class="nav-item">
         <a id="nav2" class="nav-link disabled" style="cursor:crosshair;">studionabla © 2019</a>
@@ -50,7 +47,7 @@
     <ul style="padding-inline-start: 0; display:flex;"><li><a class="title" data-fancybox href="port/nohri/MT1.jpg">Nohri · MT1</a><span class="listyear">2018</span></li><li><a class="title" id="lab">NXGN · Louis Asteroid Belt</a><span class="listyear">2018</span></li><li><a class="title" id="nxgn">NXGN</a><span class="listyear">2015</span></li><li><a class="title" id="realms">Realms</a><span class="listyear">2017</span></li><li><a class="title" data-fancybox data-caption="Sound Design for TIDAL's TIDAL X 10/15 Show Opener" href="https://vimeo.com/300437688">TIDAL X 10/15</a><span class="listyear">2016</span></li><li><a class="title" id="heatwav">HEAT.WAV</a><span class="listyear">2017</span></li><li><a class="title" data-fancybox href="port/nxgn/nightuntildawn.jpg">Night Until Dawn</a><span class="listyear">2016</span></li><li><a class="title" id="eleven">ELEVEN + RHODES</a><span class="listyear">2017</span></li><li><a class="title" data-fancybox href="port/thelonious-lincoln/badone.jpg">thelonious lincoln · bad one</a><span class="listyear">2018</span></li><li><a class="title" id="zoom">ZOOM</a><span class="listyear">2017</span></li><li><a class="title" id="mia">Mia Gladstone · Revolutionize</a><span class="listyear">2018</span></li><li><a class="title" id="boiler" >NXGN X BOILER ROOM</a><span class="listyear">2016</span></li><li><a class="title" data-fancybox href="port/nxgn/PublicEnemies.jpg">Public Enemies</a><span class="listyear">2018</span></li><li><a class="title" id="bitz">BIT'Z KIDS</a><span class="listyear">2018</span></li><li><a class="title" data-fancybox href="port/little-island/LI.png">Little Island</a><span class="listyear">2018</span></li><li><a class="title" data-fancybox href="port/canton-hill-academy/cantonhillacademy.png">canton hill academy</a><span class="listyear">2018</span></li><li><a class="title" data-fancybox href="port/nxgn/machete.jpg">Machete</a><span class="listyear">2017</span></li><li><a class="title" data-fancybox href="port/nxgn/runnin.jpg">Runnin'</a><span class="listyear">2017</span></li><li><a class="title" id="msc">MSC.✿</a><span class="listyear">2016</span></li><li><a class="title" id="daze">DAZE EP</a><span class="listyear">2016</span></li><li><a class="title" id="datb">4bidd · DATB</a><span class="listyear">2014</span></li><li><a class="title" data-fancybox href="https://vimeo.com/98448235">4bidd · CURE</a><span class="listyear">2014</span></li><li><a class="title" id="del">DEL RADIO</a><span class="listyear">2017</span></li><li><a class="title" id="blueprint">JonBoyIce · Blueprint </a><span class="listyear">2016</span></li><li><a class="title" data-fancybox href="port/nohri/softthrottle.jpg">SOFT THROTTLE </a><span class="listyear">2017</span></li><li><a class="title" data-fancybox href="port/nohri/drama.jpg">DRAMA</a><span class="listyear">2017</span></li></ul>
     </div>
     <!--MODAL-->
-    <div id="informationModal" class="modal" tabindex="-1" role="dialog" style="background-color: rgba(61, 129, 247, .9);">
+    <div id="informationModal" class="modal" tabindex="-1" role="dialog" style="background-color:#fa5326;">
   <div class="modal-dialog" role="document">
     <div class="informationModal" >
      Brooklyn based multimedia artist and music producer.<br><br>All Inquiries<br><a href="mailto:aite@nohri.net" style="text-decoration:underline;
@@ -58,27 +55,6 @@
     </div>
   </div>
 </div>
-    <!--DARKMODE-->
-    <ul id="darkmode" class="mobilehide">
-        <li>
-        <span>Dark</span>
-        <span>Lite</span>
-        </li>
-    </ul>
-<script>
-    $(document).ready(function(){
-        var dark = false;
-        $("#darkmode").click(function(){
-           if (!dark){$("#logo").attr("src","img/nohriw.png"); $("#nav0").css("color","#faebd8"); $("#nav1").css("color","#faebd8"); $("#nav2").css("color","rgba(250, 235, 216, .5)"); dark = true;} else {$("#logo").attr("src","img/nohri.png"); $("#nav0").css("color","#7a7a7a"); $("#nav1").css("color","#7a7a7a"); $("#nav2").css("color","#ababab"); dark = false;}
-            $("#darkmode").toggleClass('active')
-            $("html").toggleClass('dark')
-            $("#nav").toggleClass('dark')
-            $(".list").toggleClass('dark')
-            $(".title").toggleClass('dark')
-            
-        })
-    })
-    </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
