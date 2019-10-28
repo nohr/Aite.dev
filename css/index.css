@@ -51,7 +51,7 @@ height: 50px; }
 }
 .title:hover {
     cursor: pointer !important;
-    background: linear-gradient(to right, #faebd8 20%, #fa5326 40%, #fa5326 60%, #faebd8 80%);
+    background: linear-gradient(to right, #faebd8 20%, #87A0B2 40%, #87A0B2 60%, #faebd8 80%);
     background-size: 200% auto;
     background-clip: text;
     text-fill-color: transparent;
